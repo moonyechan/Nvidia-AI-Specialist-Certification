@@ -62,3 +62,28 @@ Based on the aforementioned context, this project is expected to make a signific
 이와 같은 내용을 바탕으로, 본 프로젝트는 탁구 선수들의 기술 향상과 AI 기술의 응용 가능성을 탐구하는 데 중요한 기여를 할 것으로 기대됩니다.
 
 
+데이터 셋 취득 과정
+데이터 셋 만들기 https://universe.roboflow.com/ 링크로 들어가서 
+
+탁구공 데이터 셋을 찾아서 yolov5 데이터셋을 다운받아줍니다.
+
+
+다운받은 탁구공 데이터의 data.yml 파일과 label파일과 image 파일을 yolov5 파일안에 넣습니다.
+사진
+
+data.yml 파일을 경로에 맞게 수정해줍니다.
+사진
+
+그후에 검증데이터를 생성해줍니다.
+사진
+
+학습시작합니다.
+사진
+
+학습 결과물 확인
+사진
+
+학습결과물 검증 영상
+
+사진 영상
+

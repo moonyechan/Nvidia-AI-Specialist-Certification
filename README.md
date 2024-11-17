@@ -130,20 +130,9 @@ Nvidia Developer Documentation on Jetson Nano/Xavier.
 ![스크린샷(21)](https://github.com/user-attachments/assets/68f990c1-0f71-44bf-af2a-01e310d1a837)
 
 
-## 검증 영상입니다.
+### 모델 결과 검증하기
+python detect.py --weight runs/train/exp/weights/best.pt --source [테스트할 영상의 경로] --img 640 --conf 0.8
 
-
-https://github.com/user-attachments/assets/a27725c2-28e2-47f5-aedc-d35557f111ba
-
-
-https://github.com/user-attachments/assets/80e42731-abec-4f31-aad6-71078a8ef8a2
-
-
-
-
-
-
-
-
-
+검증영상
+https://github.com/user-attachments/assets/f1314d18-3784-4a37-b717-9f9798c5d45a
 

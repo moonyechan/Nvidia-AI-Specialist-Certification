@@ -130,6 +130,6 @@ Nvidia Developer Documentation on Jetson Nano/Xavier.
 
 
 ### Validate model results
-python detect.py --weight runs/train/exp/weights/best.pt --source [테스트할 영상의 경로] --img 640 --conf 0.8
+python detect.py --weight runs/train/exp/weights/best.pt --source [Path of the image to be tested] --img 640 --conf 0.8
 
 

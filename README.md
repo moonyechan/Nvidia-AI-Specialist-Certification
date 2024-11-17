@@ -2,18 +2,17 @@
 
 # OverView of the Project
 
+1. Opening background information
 
-1. Opening background information (내 프로젝트의 전반적인 문맥을 위해서 필요!)
+2. General description of the current project 
 
-2. General description of the current project (프로젝트의 전반적인 설명)
+3. Proposed idea for enhancements to the project 
 
-3. Proposed idea for enhancements to the project (제안하고 싶은 프로젝트의 강점)
+4. Value and significance of this project
 
-4. Value and significance of this project (중요성)
+5. Current limitations 
 
-5. Current limitations (직면하고 있는 한계)
-
-6. Literature review (전반적인 프로젝트의 배경지식 공유를 위해서)
+6. Literature review 
 
 
 
@@ -71,53 +70,53 @@ Nvidia Developer Documentation on Jetson Nano/Xavier.
 
 ![스크린샷(29)](https://github.com/user-attachments/assets/e06a3a05-17bc-4689-a5bc-f41921570d2e)
 
-### 탁구공 데이터 셋을 찾아서 yolov5 데이터셋을 다운받아줍니다.
+### Find the ping pong ball dataset and download the yolov5 dataset.
 
 ![스크린샷(30)](https://github.com/user-attachments/assets/bc8e158b-64bc-4a56-8800-ed48ed153046)
 ![스크린샷(43)](https://github.com/user-attachments/assets/974e4c21-c8e3-41e1-88e5-3d406367d365)
 
-### Google Colaboratory 를 사용하여 코드를 작성해줍니다.
+### Use Google Collaboration to create code.
 
-### 1.구글 드라이브 연동
+### 1.Google Drive integration.
 
-### 코랩에서 구글드라이브 와 연결해줍니다.
+### Connect to Google Drive from Google Collection.
 ![스크린샷(34)](https://github.com/user-attachments/assets/a7f4426b-68b5-49be-a673-c073272c07f2)
 
-### 2.yolov5 설치
-### yolov5를 설치해줍니다.
+
+### 2. Install yolov5.
 ![스크린샷(47)](https://github.com/user-attachments/assets/e914556a-a768-4e79-bd89-1dfab27556cf)
 
-### 3.이미지 파일관리
+### 3.Image File Management
 
-### 이미지파일을 관리할 폴더를 생성해줍니다.
+### Creates a folder to manage image files.
 ![스크린샷(36)](https://github.com/user-attachments/assets/0bbb8d2e-55fb-44b8-899f-ed0b27ec426d)
 
-### roboflow 에서 받은 data 파일들을 경로에 알맞게 넣어줄겁니다.
+### We will put the data files received from roboflow into the path accordingly.
 ![스크린샷(31)](https://github.com/user-attachments/assets/d7fff744-6e16-49dd-aa1f-8d72a143f434)
-### roboflow 에서 받은 data.yml 파일은 수정해줘야됩니다
+###You need to modify the data.yml file you received from roboflow
 ![스크린샷(48)](https://github.com/user-attachments/assets/a975947b-36d4-4b35-bc3a-32a154655d77)
 
 ![스크린샷(46)](https://github.com/user-attachments/assets/1684c4dc-ea7b-41a1-8a93-f866c1369c4e)
-### 위의 사진들과 처럼 넣어주면 됩니다
+### You can put it in like the pictures above
 
 
-### 검증데이터를 생성합니다.
+### Generates verification data.
 
 ![스크린샷(37)](https://github.com/user-attachments/assets/4f7c1df9-6864-4c13-877c-a25fbb20adca)
 
 ![스크린샷(38)](https://github.com/user-attachments/assets/59eba4c0-a985-47c6-9647-e3c4c0a34cf1)
 
-### 필요라이브러리를 불러옵니다
+### Gets the required library.
 
 ![스크린샷(39)](https://github.com/user-attachments/assets/7b43e8ce-0892-4ec8-8a8e-1a678d8ab9c9)
 
 ![스크린샷(40)](https://github.com/user-attachments/assets/06fcbfbe-5ff1-4211-a824-c8c8571ddfb3)
 
-### 학습시킵니다
+### Let them learn
 
 ![스크린샷(41)](https://github.com/user-attachments/assets/806bdfbf-6bf8-429b-8869-2ac7a289e62e)
 
-### 학습결과
+###learning outcome
 
 ![스크린샷(17)](https://github.com/user-attachments/assets/3f26ff60-6aae-4fe4-8c6c-fd8a33bd2f80)
 
@@ -130,7 +129,7 @@ Nvidia Developer Documentation on Jetson Nano/Xavier.
 ![스크린샷(21)](https://github.com/user-attachments/assets/68f990c1-0f71-44bf-af2a-01e310d1a837)
 
 
-### 모델 결과 검증하기
+### Validate model results
 python detect.py --weight runs/train/exp/weights/best.pt --source [테스트할 영상의 경로] --img 640 --conf 0.8
 
 

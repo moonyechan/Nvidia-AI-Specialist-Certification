@@ -73,26 +73,10 @@ Dataset acquisition process
 
 1.https://universe.roboflow.com/ Go to the link
 
+![스크린샷(29)](https://github.com/user-attachments/assets/e06a3a05-17bc-4689-a5bc-f41921570d2e)
 
 탁구공 데이터 셋을 찾아서 yolov5 데이터셋을 다운받아줍니다.
 
+![스크린샷(30)](https://github.com/user-attachments/assets/bc8e158b-64bc-4a56-8800-ed48ed153046)
 
 
-다운받은 탁구공 데이터셋을 yolov5안에 넣어줍니다
-
-
-data.yml 파일을 경로에 맞게 수정해줍니다.
-사진
-
-그후에 검증데이터를 생성해줍니다.
-사진
-
-학습시작합니다.
-사진
-
-학습 결과물 확인
-사진
-
-학습결과물 검증 영상
-
-사진 영상

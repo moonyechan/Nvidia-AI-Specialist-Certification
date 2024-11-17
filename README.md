@@ -92,31 +92,34 @@ Nvidia Developer Documentation on Jetson Nano/Xavier.
 ![스크린샷(36)](https://github.com/user-attachments/assets/0bbb8d2e-55fb-44b8-899f-ed0b27ec426d)
 
 ### We will put the data files received from roboflow into the path accordingly.
+
 ![스크린샷(31)](https://github.com/user-attachments/assets/d7fff744-6e16-49dd-aa1f-8d72a143f434)
-###You need to modify the data.yml file you received from roboflow
+
+### You need to modify the data.yml file you received from roboflow
+
 ![스크린샷(48)](https://github.com/user-attachments/assets/a975947b-36d4-4b35-bc3a-32a154655d77)
 
 ![스크린샷(46)](https://github.com/user-attachments/assets/1684c4dc-ea7b-41a1-8a93-f866c1369c4e)
 ### You can put it in like the pictures above
 
 
-### Generates verification data.
+### 4.Generates verification data.
 
 ![스크린샷(37)](https://github.com/user-attachments/assets/4f7c1df9-6864-4c13-877c-a25fbb20adca)
 
 ![스크린샷(38)](https://github.com/user-attachments/assets/59eba4c0-a985-47c6-9647-e3c4c0a34cf1)
 
-### Gets the required library.
+### 5. Gets the required library.
 
 ![스크린샷(39)](https://github.com/user-attachments/assets/7b43e8ce-0892-4ec8-8a8e-1a678d8ab9c9)
 
 ![스크린샷(40)](https://github.com/user-attachments/assets/06fcbfbe-5ff1-4211-a824-c8c8571ddfb3)
 
-### Let them learn
+### 6. Let them learn
 
 ![스크린샷(41)](https://github.com/user-attachments/assets/806bdfbf-6bf8-429b-8869-2ac7a289e62e)
 
-###learning outcome
+### 7. learning outcome
 
 ![스크린샷(17)](https://github.com/user-attachments/assets/3f26ff60-6aae-4fe4-8c6c-fd8a33bd2f80)
 
@@ -129,7 +132,7 @@ Nvidia Developer Documentation on Jetson Nano/Xavier.
 ![스크린샷(21)](https://github.com/user-attachments/assets/68f990c1-0f71-44bf-af2a-01e310d1a837)
 
 
-### Validate model results
+### 8. Validate model results
 python detect.py --weight runs/train/exp/weights/best.pt --source [Path of the image to be tested] --img 640 --conf 0.8
 
 

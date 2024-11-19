@@ -1,6 +1,5 @@
-train: ../train/images
-val: ../valid/images
-test: ../test/images
+train: /content/drive/MyDrive/yolov5/Train/images
+val: /content/drive/MyDrive/yolov5/Val/images
 
 nc: 1
 names: ['ball']
